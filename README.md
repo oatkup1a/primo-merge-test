@@ -8,7 +8,6 @@
 
 ```bash
 git clone https://github.com/oatkup1a/primo-merge-test.git
-cd primo-merge-test
 ```
 
 2. Install dependencies:
