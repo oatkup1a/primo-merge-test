@@ -1,5 +1,7 @@
 export function merge(collection_1: number[], collection_2: number[], collection_3: number[]): number[] {
-    const result: number[] = [];
+    let result: number[] = [];
+    // collection_1, collection_2 already sorted from min(0) to max
+    // collection_3 already sorted from max to min(0)
     let i = 0, j = 0, k = collection_3.length - 1;
   
     while (i < collection_1.length || j < collection_2.length || k >= 0) {
