@@ -44,4 +44,5 @@ describe('merge', () => {
 
     expect(result).toEqual(expected_result);
   });
+  
 });
